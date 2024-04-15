@@ -1,0 +1,65 @@
+$Libre-Franklin: "Libre Franklin", sans-serif;
+$Blue: hsl(223, 87%, 63%);
+$Pale-Blue: hsl(223, 100%, 88%);
+$Light-Red: hsl(354, 100%, 66%);
+$Gray: hsl(0, 0%, 59%);
+$Very-Dark-Blue: hsl(209, 33%, 12%);
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* prevent iOS font size change */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: $Libre-Franklin;
+    color: $Very-Dark-Blue;
+    min-height: 100vh;
+    font-size: 20px;
+    line-height: 1;
+    text-rendering: optimizeSpeed;
+}
+
+
+input, button {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: inherit;
+}
+
+button {
+    text-align: inherit;
+    font: inherit;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a  {
+    color: hsl(228, 45%, 44%);
+
+}
+    
