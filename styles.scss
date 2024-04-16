@@ -22,6 +22,7 @@ html {
 }
 
 body {
+    text-align: center;
     font-family: $Libre-Franklin;
     color: $Very-Dark-Blue;
     min-height: 100vh;
@@ -51,6 +52,56 @@ button {
     border: none;
     background-color: inherit;
     cursor: pointer;
+}
+
+main {
+    padding: 2rem;
+}
+
+.logo-container {
+    width: 4.5rem;
+    margin: 5rem auto 2rem;
+}
+
+.info-container {
+    margin: 2rem auto;
+    font-weight: 300;
+}
+.heading-paragraph{
+    font-size: 1.35em;
+    font-weight: 300;
+    color: $Gray;
+    strong {
+        color: $Very-Dark-Blue;
+        font-weight: 700;
+    }
+}
+
+.Subscribe-paragraph {
+    font-size: 1rem;
+    margin: 1.5em 1em;
+}
+
+footer {
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 0.9rem;
+        a {
+            border: 1px solid $Pale-Blue;
+            border-radius: 100%;
+            padding: 8px;
+            width: 1.8em;
+            height: 1.8em;
+        }
+    }
+    p {
+        font-weight: 300;
+        font-size: 12px;
+        margin: 3em auto;
+        color: $Gray;
+    }
+    
 }
 
 

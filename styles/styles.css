@@ -1,3 +1,97 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* prevent iOS font size change */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  color: hsl(209, 33%, 12%);
+  min-height: 100vh;
+  font-size: 20px;
+  line-height: 1;
+  text-rendering: optimizeSpeed;
+}
+
+input, button {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: inherit;
+}
+
+button {
+  text-align: inherit;
+  font: inherit;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem;
+}
+
+.logo-container {
+  width: 4.5rem;
+  margin: 5rem auto 2rem;
+}
+
+.info-container {
+  margin: 2rem auto;
+  font-weight: 300;
+}
+
+.heading-paragraph {
+  font-size: 1.35em;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+.heading-paragraph strong {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+
+.Subscribe-paragraph {
+  font-size: 1rem;
+  margin: 1.5em 1em;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+}
+footer div a {
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 100%;
+  padding: 8px;
+  width: 1.8em;
+  height: 1.8em;
+}
+footer p {
+  font-weight: 300;
+  font-size: 12px;
+  margin: 3em auto;
+  color: hsl(0, 0%, 59%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
