@@ -6,7 +6,6 @@ $Gray: hsl(0, 0%, 59%);
 $Very-Dark-Blue: hsl(209, 33%, 12%);
 
 
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -75,6 +74,16 @@ main {
         color: $Very-Dark-Blue;
         font-weight: 700;
     }
+}
+
+input {
+    border: 1px solid $Pale-Blue;
+    border-radius: 100px;
+  /*  */
+}
+
+input::placeholder {
+    font-size: 1rem;
 }
 
 .Subscribe-paragraph {

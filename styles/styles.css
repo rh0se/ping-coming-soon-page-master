@@ -68,6 +68,20 @@ main {
   font-weight: 700;
 }
 
+input {
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 100px;
+  /*  */
+}
+
+input::-moz-placeholder {
+  font-size: 1rem;
+}
+
+input::placeholder {
+  font-size: 1rem;
+}
+
 .Subscribe-paragraph {
   font-size: 1rem;
   margin: 1.5em 1em;
