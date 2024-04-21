@@ -23,6 +23,8 @@ body {
 }
 
 input, button {
+  width: 100%;
+  border-radius: 100px;
   font-size: inherit;
   line-height: inherit;
 }
@@ -37,24 +39,35 @@ a {
 }
 
 button {
+  color: white;
   text-align: inherit;
-  font: inherit;
+  font-size: 1rem;
+  padding: 0.8rem;
+  font-family: inherit;
   border: none;
-  background-color: inherit;
+  background-color: hsl(223, 87%, 63%);
   cursor: pointer;
+  box-shadow: 3px 3px 20px 3px hsl(223, 100%, 88%);
+}
+
+button:hover {
+  background-color: #7297f5;
 }
 
 main {
   padding: 2rem;
 }
 
+/* form {
+    margin: 2em auto;
+} */
 .logo-container {
   width: 4.5rem;
   margin: 5rem auto 2rem;
 }
 
 .info-container {
-  margin: 2rem auto;
+  margin: 2rem auto 2.5em;
   font-weight: 300;
 }
 
@@ -70,21 +83,32 @@ main {
 
 input {
   border: 1px solid hsl(223, 100%, 88%);
-  border-radius: 100px;
+  margin-bottom: 1rem;
+  padding: 10px;
   /*  */
 }
 
 input::-moz-placeholder {
+  font-weight: 300;
+  padding: 0 1rem;
   font-size: 1rem;
+  color: hsl(223, 100%, 88%);
 }
 
 input::placeholder {
+  font-weight: 300;
+  padding: 0 1rem;
   font-size: 1rem;
+  color: hsl(223, 100%, 88%);
 }
 
 .Subscribe-paragraph {
   font-size: 1rem;
   margin: 1.5em 1em;
+}
+
+.iluatration-container {
+  margin: 4em auto;
 }
 
 footer div {
@@ -98,6 +122,12 @@ footer div a {
   padding: 8px;
   width: 1.8em;
   height: 1.8em;
+}
+footer div a:hover {
+  background-color: hsl(223, 87%, 63%);
+}
+footer div a:hover img {
+  filter: brightness(0) invert(1);
 }
 footer p {
   font-weight: 300;
@@ -113,4 +143,42 @@ footer p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (768px <= width) {
+  .logo-container {
+    width: 6rem;
+    margin: 5rem auto 2rem;
+  }
+  .info-container {
+    margin: 2rem auto 2.5em;
+    font-weight: 300;
+  }
+  .heading-paragraph {
+    font-size: 2em;
+    font-weight: 300;
+  }
+  .Subscribe-paragraph {
+    font-size: 1.3rem;
+    margin: 1em auto;
+  }
+  form {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    gap: 0.6em;
+    align-items: center;
+  }
+  form input {
+    width: 70%;
+    margin: 0;
+    padding: 12px;
+  }
+  form button {
+    padding: 1rem 0;
+    width: 30%;
+  }
+  .iluatration-container {
+    width: 600px;
+  }
 }/*# sourceMappingURL=styles.css.map */
