@@ -23,10 +23,13 @@
     <p class="heading-paragraph">We are launching <strong>soon!</strong></p>
     <p class="Subscribe-paragraph">Subscribe and get notified</p>
   </div>
-  <form>
+  <form action="" method="" id="notify-form">
+    <div>
     <label for="email"></label>
     <input id="email-input" type="email" placeholder="Your email address" novalidate>
-    <button class="btn" name="notify-button" >Notify Me</button>
+    <p id="error-message" class="error"></p>
+  </div>
+    <button class="btn" name="notify-button" id="notify-btn" type="submit">Notify Me</button>
   </form>
 
   <div class="iluatration-container">
@@ -46,5 +49,6 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/rh0se">Rh0se</a>.
     </p>
+    <script type="text/javascript" src="/script.js"></script>
 </body>
 </html>
