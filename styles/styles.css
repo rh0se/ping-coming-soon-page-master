@@ -47,7 +47,7 @@ button {
   border: none;
   background-color: hsl(223, 87%, 63%);
   cursor: pointer;
-  box-shadow: 3px 3px 20px 3px hsl(223, 100%, 88%);
+  box-shadow: 3px 3px 6px 3px hsl(223, 100%, 88%);
 }
 
 button:hover {
@@ -83,7 +83,7 @@ main {
 
 input {
   border: 1px solid hsl(223, 100%, 88%);
-  margin-bottom: 1rem;
+  font-size: 16px;
   padding: 10px;
   /*  */
 }
@@ -100,6 +100,20 @@ input::placeholder {
   padding: 0 1rem;
   font-size: 1rem;
   color: hsl(223, 100%, 88%);
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 11px;
 }
 
 .Subscribe-paragraph {
@@ -169,8 +183,11 @@ footer p {
     gap: 0.6em;
     align-items: center;
   }
-  form input {
+  form div {
     width: 70%;
+    margin: 0;
+  }
+  form div input {
     margin: 0;
     padding: 12px;
   }
