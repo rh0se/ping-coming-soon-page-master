@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL:](https://your-solution-url.com)
+- Live Site URL: [Ping coming soon page](https://rh0se.github.io/ping-coming-soon-page-master/)
 
 ## My process
 
@@ -79,9 +79,7 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [freeCodeCamp](https://www.example.com) - This helped me with regex.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-regular-expressions-by-building-a-spam-filter/) - The learn regular expressions by building a spam filter helped me with regex.
 
 
 ## Author
