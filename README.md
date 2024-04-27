@@ -31,12 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot.png)
 
 
 ### Links
 
-- [Solution URL:](https://your-solution-url.com)
+- [Solution URL:](https://github.com/rh0se/ping-coming-soon-page-master)
 - Live Site URL: [Ping coming soon page](https://rh0se.github.io/ping-coming-soon-page-master/)
 
 ## My process
@@ -53,27 +53,18 @@ Users should be able to:
 
 ### What I learned
 
-I focused on implementing client-side email validation. It provided me with an excellent chance to revisit and enhance my understanding of responsive design. Ensuring that user input adheres to the expected format before submission is crucial for a seamless user experience. Additionally, responsive design ensures that web applications look and function well across various devices and screen sizes
+I focused on implementing client-side email validation with regex. Ensuring that user input adheres to the expected format before submission is crucial for a seamless user experience. Additionally, It provided me with an excellent chance to revisit and enhance my understanding of responsive design. responsive design ensures that web applications look and function well across various devices and screen sizes
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+    const emailRegex = /^[a-z][\w\d]+[@][a-z]+[.][a-z]{2,4}$/;
 ```
 
 
 ### Continued development
-
+Strengthen my understanding of core JavaScript concepts. Dive deeper into functions, loops, conditionals, and data manipulation.
 
 
 
@@ -84,9 +75,9 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- We - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [rhoda](www.linkedin.com/in/rhoda-ojetola)
+- Frontend Mentor - [@rh0se](https://www.frontendmentor.io/profile/rh0se)
+- Twitter - [@rh0se](https://twitter.com/NerdySimi)
 
 
 
