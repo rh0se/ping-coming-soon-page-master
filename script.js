@@ -3,7 +3,8 @@ const notifyButton = document.getElementById("notify-btn");
 const notifyForm = document.getElementById("notify-form");
 const errorMessage = document.getElementById("error-message");
 
-notifyForm.addEventListener("submit", () => {
+notifyForm.addEventListener("click", (e) => {
+    e.preventDefault();
     const emailRegex = /^[a-z][\w\d]+[@][a-z]+[.][a-z]{2,4}$/;
     if (emailInput.value === '') {
         errorMessage.textContent = "Whoops! It looks like you forgot to add your email";
