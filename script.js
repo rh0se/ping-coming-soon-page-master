@@ -22,7 +22,7 @@ const checkEmail = () => {
     }
 }
 
-notifyForm.addEventListener("click", (e) => {
+notifyForm.addEventListener("submit", (e) => {
     e.preventDefault();
     checkEmail();
 })
