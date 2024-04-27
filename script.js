@@ -3,8 +3,7 @@ const notifyButton = document.getElementById("notify-btn");
 const notifyForm = document.getElementById("notify-form");
 const errorMessage = document.getElementById("error-message");
 
-notifyForm.addEventListener("click", (e) => {
-    e.preventDefault();
+const checkEmail = () => {
     const emailRegex = /^[a-z][\w\d]+[@][a-z]+[.][a-z]{2,4}$/;
     if (emailInput.value === '') {
         errorMessage.textContent = "Whoops! It looks like you forgot to add your email";
@@ -19,4 +18,16 @@ notifyForm.addEventListener("click", (e) => {
         errorMessage.style.color = "green";
         emailInput.style.border = "1px solid green";
     }
+}
+
+notifyForm.addEventListener("click", (e) => {
+    e.preventDefault();
+    checkEmail();
+})
+
+emailInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      checkEmail();
+      e.preventDefault();
+    };
 })
