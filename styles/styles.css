@@ -157,6 +157,8 @@ footer p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  font-style: italic;
+  font-weight: 700;
 }
 
 @media (768px <= width) {
