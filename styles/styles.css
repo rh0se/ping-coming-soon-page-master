@@ -125,25 +125,25 @@ form div {
   margin: 4em auto;
 }
 
-footer div {
+section div {
   display: flex;
   justify-content: center;
   gap: 0.9rem;
 }
-footer div a {
+section div a {
   border: 1px solid hsl(223, 100%, 88%);
   border-radius: 100%;
   padding: 8px;
   width: 1.8em;
   height: 1.8em;
 }
-footer div a:hover {
+section div a:hover {
   background-color: hsl(223, 87%, 63%);
 }
-footer div a:hover img {
+section div a:hover img {
   filter: brightness(0) invert(1);
 }
-footer p {
+section p {
   font-weight: 300;
   font-size: 12px;
   margin: 3em auto;
